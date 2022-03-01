@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <title>Rein</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Start Website-->
+    <div id="dark">
+        <div id="page">
+
+            <!-- Start Logo -->
+            <div id="logo">
+                <a href="index.html"><img src="images/Logo@2x.png" alt=""></a>
+            </div>
+            <!-- End Logo -->
+
+            <!-- Start Navbar -->
+            <nav class="navbar">
+
+                <!-- Start Left Icons-->
+                <div class="left-side-icon-on">
+                    <button id="side-btn"><i class="fas fa-bars"></i></button>
+                </div>
+                <div class="left-side-icon-off">
+                    <button id="side-btn-off"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="left-icon">
+                    <div><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                    <div><a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div><a href="#"> <i class="fab fa-instagram"></i></a></div>
+                </div>
+                <!-- End Left Icons-->
+
+                <!-- Start Center Content -->
+                <div class="side-menu">
+                    <div class="center-content">
+                        <ul id="nav-ul">
+                            <li><a href="#">Home</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="hide-ul">
+                                    <li>Home Post Slider</li>
+                                    <li>Home Posts Carousel</li>
+                                    <li>Home Minimal</li>
+                                    <li>Home Category Minimal</li>
+                                    <li>Home Masonry</li>
+                                    <li>Home Grid with sidebar</li>
+                                    <li>home solid background</li>
+                                    <li>Home Advertising Area</li>
+                                    <li>Advertise between Posts</li>
+                                    <li>Home Footer with Widget</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Header Styles</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="hide-ul">
+                                    <li>Minimalist Style</li>
+                                    <li>Classic Style</li>
+                                    <li>Notic on Top</li>
+                                    <li>Advertising Area</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Post Features</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="hide-ul">
+                                    <li>Post Formats</li>
+                                    <li>Fullwidth Image</li>
+                                    <li>Classic Image</li>
+                                    <li>Post Pagination</li>
+                                    <li>Fullwidth no Sidebar</li>
+                                    <li>Classic no Sidebar</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">#Tag</a></li>
+                            <li><a href="#">Features</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="hide-ul">
+                                    <li>Style Guide</li>
+                                    <li>Gutenberg Blocks</li>
+                                    <li>Buttons</li>
+                                    <li>Accordions and Tabs</li>
+                                    <li>Columns</li>
+                                    <li>Alert Massages</li>
+                                    <li>404</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Center Content -->
+
+                <!-- Start Right Icons-->
+                <div class="right-icon">
+                    <div><button onclick="add()" href="#"><i class="fas fa-search"></i></button></div>
+                </div>
+                <!-- End Right Icons-->
+
+            </nav>
+            <!-- End Navbar-->
+
+            <div id="hr"></div>
+
+            <!-- Start Landing Page -->
+            <div id="landing-page">
+
+                <!-- Start Slider -->
+                <div class="slider">
+
+                    <div class="position">
+                        <!-- Start First Slider -->
+                        <div class="first-slider mySlides">
+                            <div class="second-dark">
+                                <div class="slider-content">
+                                    <div class="category">
+                                        <a class="pink-before before" href="#">
+                                            <p>Featured</p>
+                                        </a>
+                                        <a class="cyan-before before" href="#">
+                                            <p>Travel</p>
+                                        </a>
+                                    </div>
+                                    <div class="header">
+                                        <h1 class="h1-hover">
+                                            <a href="#">Far far away & behind the word mountains</a>
+                                        </h1>
+                                    </div>
+                                    <div class="info">
+                                        <a href="#">
+                                            <img src="images/avatar-2-op.jpg">
+                                            <p>Mary Buzard</p>
+                                        </a>
+                                        <i class="fas fa-square-full"></i>
+                                        <p>August 15, 2019</p>
+                                    </div>
+                                    <button class="continue-reading" href="#">Continue Reading</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End First Slider -->
+
+                        <!-- Start Second Slider -->
+                        <div class="second-slider mySlides">
+                            <div class="second-dark">
+                                <div class="slider-content">
+                                    <div class="category">
+                                        <a class="pink-before before" href="#">
+                                            <p>Featured</p>
+                                        </a>
+                                        <a class="blue-before before" href="#">
+                                            <p>Technology</p>
+                                        </a>
+                                    </div>
+                                    <div class="header">
+                                        <h1 class="h1-hover">
+                                            <a href="#">Apps & integrations, the correct way to use gadgets</a>
+                                        </h1>
+                                    </div>
+                                    <div class="info">
+                                        <a href="#">
+                                            <img src="images/avatar-1-op.jpg">
+                                            <p>Jonathan Doe</p>
+                                        </a>
+                                        <i class="fas fa-square-full"></i>
+                                        <p>July 25, 2019</p>
+                                    </div>
+                                    <button class="continue-reading" href="#">Continue Reading</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Second Slider -->
+
+                        <!-- Start Third Slider -->
+                        <div class="third-slider mySlides">
+                            <div class="second-dark">
+                                <div class="slider-content">
+                                    <div class="category">
+                                        <a class="pink-before before" href="#">
+                                            <p>Featured</p>
+                                        </a>
+                                        <a class="green-before before" href="#">
+                                            <p>Health</p>
+                                        </a>
+                                        <a class="purple-before before" href="#">
+                                            <p>Life Style</p>
+                                        </a>
+                                    </div>
+                                    <div class="header">
+                                        <h1 class="h1-hover">
+                                            <a href="#">3 ideas to keep you healthy and strong</a>
+                                        </h1>
+                                    </div>
+                                    <div class="info">
+                                        <a href="#">
+                                            <img src="images/avatar-1-op.jpg">
+                                            <p>Jonathan Doe</p>
+                                        </a>
+                                        <i class="fas fa-square-full"></i>
+                                        <p>July 25, 2019</p>
+                                    </div>
+                                    <button class="continue-reading" href="#">Continue Reading</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Third Slider -->
+                    </div>
+                </div>
+                <!-- End Slider -->
+
+                <section class="fix-position"></section>
+
+                <!-- Start Slider Buttons -->
+                <div class="div-slider-buttons">
+                    <button class="slider-button" onclick="carousel(slideIndex = 0)"></button>
+                    <button class="slider-button" onclick="carousel(slideIndex = 1)"></button>
+                    <button class="slider-button" onclick="carousel(slideIndex = 2)"></button>
+                </div>
+                <!-- End Slider Buttons -->
+
+            </div>
+            <!-- End Landing Page -->
+            <!-- Start Main Page -->
+            <div class="main-page">
+                <!-- Start Left Div -->
+                <div id="left">
+                    <div class="box">
+                        <img class="left-img" src="images/02-painting-600x450-op.jpg">
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="purple-before before" href="#">
+                                    <p>Life Style</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">The spectacle before us was indeed sublime</a>
+                            </h1>
+                            <p class="article">We know that first impressions are important, so we’ve populated your new
+                                site with some
+                                initial getting started posts that will…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-1-op.jpg">
+                                    <p>Jonathan Doe</p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 25, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                    <div class="box">
+                        <img class="left-img" src="images/art-backlit-couple-556662-360x450.jpg">
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="pink-before before" href="#">
+                                    <p>Music</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">Musical improvisation is the spontaneous music</a>
+                            </h1>
+                            <p class="article">It was one of the worst storms to hit London since God knows when. The
+                                thunder rolled, lightning flashed…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-2-op.jpg">
+                                    <p> Mary Buzard </p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 26, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                    <div class="box">
+                        <img class="left-img" src="images/hirsch-4253787_1920-700x438.jpg">
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="green-before before" href="#">
+                                    <p>Health</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">The meaning of health has evolved over time</a>
+                            </h1>
+                            <p class="article">In keeping with the biomedical perspective, early definitions of health
+                                focused on the theme of the body’s ability to…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-1-op.jpg">
+                                    <p>Jonathan Doe</p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 26, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                    <div class="box">
+                        <div class="left-image">
+                            <img class="slide-image" src="images/08-painting-800x500.jpg">
+                            <img class="slide-image" src="images/slider-2-op.jpg">
+                            <img class="slide-image" src="images/quagmire_keep-800x500.jpg">
+                            <button class="left-button" onclick="carouselII(sideIndexImg--)"><i
+                                    class="fas fa-arrow-left"></i></button>
+                            <button class="right-button"><i class="fas fa-arrow-right"
+                                    onclick="carouselII(sideIndexImg++)"></i></button>
+                        </div>
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="cyan-before before" href="#">
+                                    <p>Travel</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">5 Spanish Cities That Will Make You Fall In Love</a>
+                            </h1>
+                            <p class="article">Spain is home to some of the most stunning architecture in Europe, known
+                                throughout the world for its distinguishable…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-2-op.jpg">
+                                    <p> Mary Buzard </p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 25, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                    <div class="box">
+                        <img class="left-img" src="images/13-digital-600x450.jpg">
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="cyan-before before" href="#">
+                                    <p>Travel</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">A small river named Duden flows by their place</a>
+                            </h1>
+                            <p class="article">The Ghost editor has everything you need to fully optimise your content.
+                                This is where you can add tags…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-1-op.jpg">
+                                    <p>Jonathan Doe</p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 25, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                    <div class="box">
+                        <img class="left-img" src="images/i281756464733466469._szw1280h1280_-700x350.jpg">
+                        <div class="right-content">
+                            <div class="top">
+                                <a class="purple-before before" href="#">
+                                    <p>Life Style</p>
+                                </a>
+                                <div class="article-icon">
+                                    <button><i class="fas fa-comment"></i></button>
+                                    <button><i class="fas fa-fire"></i></button>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <h1 class="h1-hover">
+                                <a href="#">These Are The 10 Best Restaurants in The World</a>
+                            </h1>
+                            <p class="article">Each year, fine diners, restaurateurs and food writers—I’m in the last
+                                group—try to read the annual World’s 50 Best…</p>
+                            <div class="info">
+                                <a href="#">
+                                    <img src="images/avatar-1-op.jpg">
+                                    <p>Jonathan Doe</p>
+                                </a>
+                                <i class="fas fa-square-full"></i>
+                                <p>July 25, 2019</p>
+                            </div>
+                        </div>
+                        <button class="continue-reading" href="#">Continue Reading</button>
+                    </div>
+                </div>
+                <!-- End Left Div -->
+
+                <!-- Start Right Div -->
+                <div id="right">
+                    <!-- Start About Section-->
+                    <div class="about">
+                        <h1 class="inline">About me</h1>
+                        <span class="inline-hr fhr"></span>
+                        <div class="profile">
+                            <img src="images/avatar-1-op.jpg">
+                            <div class="right-float">
+                                <h1 class="h1-hover">
+                                    <a href="#">Jonathan Doe</a>
+                                </h1>
+                                <p>Founder & Editor</p>
+                                <div class="background-icons">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                            </div>
+                            <section class="fix-float"></section>
+                            <p class="about-p">We are a team working from Chile. We create some Ghost and Wordpress
+                                themes for
+                                differents markets, also, we offer live support via our ticket system.</p>
+                        </div>
+                    </div>
+                    <!-- End About Section-->
+
+                    <!-- Start Recent Section -->
+                    <div class="recent">
+                        <h1 class="inline">Recent posts</h1>
+                        <span class="inline-hr shr"></span>
+                        <div class="posts">
+                            <img class="img-before" src="images/slider-1-op.jpg">
+                            <div class="right-float">
+                                <h1 class="h1-hover">
+                                    <a href="#">Far far away & behind the word mountains</a>
+                                </h1>
+                                <div class="info">
+                                    <i class="fas fa-square-full"></i>
+                                    <p>August 15, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="fix-float"></section>
+                        <div class="posts">
+                            <img class="img-before" src="images/02-painting-600x450-op.jpg">
+                            <div class="right-float">
+                                <h1 class="h1-hover">
+                                    <a href="#">The spectacle before us was indeed sublime</a>
+                                </h1>
+                                <div class="info">
+                                    <i class="fas fa-square-full"></i>
+                                    <p>July 26, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="fix-float"></section>
+                        <div class="posts">
+                            <img class="img-before" src="images/art-backlit-couple-556662-360x450.jpg">
+                            <div class="right-float">
+                                <h1 class="h1-hover">
+                                    <a href="#">Musical improvisation is the spontaneous music</a>
+                                </h1>
+                                <div class="info">
+                                    <i class="fas fa-square-full"></i>
+                                    <p>July 26, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="fix-float"></section>
+                    </div>
+                    <!-- End Recent Section -->
+
+                    <!-- Start Tag Section -->
+                    <div class="tag">
+                        <h1 class="inline">Tag Cloud</h1>
+                        <span class="inline-hr thr"></span>
+                        <a class="pink-before before" href="#">
+                            <p>Featured</p>
+                        </a>
+                        <a class="green-before before" href="#">
+                            <p>Health</p>
+                        </a>
+                        <a class="purple-before before" href="#">
+                            <p>Lifestyle</p>
+                        </a>
+                        <a class="pink-before before" href="#">
+                            <p>music</p>
+                        </a>
+                        <a class="blue-before before" href="#">
+                            <p>Technology</p>
+                        </a>
+                        <a class="cyan-before before" href="#">
+                            <p>Travel</p>
+                        </a>
+                        <a class="blue-before before" href="#">
+                            <p>Video</p>
+                        </a>
+                    </div>
+                    <!-- End Tag Section -->
+
+                    <!-- Start Social Section -->
+                    <div class="social">
+                        <h1 class="inline">Social Profiles</h1>
+                        <span class="inline-hr fhr"></span>
+                        <div class="social-card">
+                            <div class="card twitter-card">
+                                <div class="text">
+                                    <h1>Twitter</h1>
+                                    <p>Follow me!</p>
+                                </div>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="card facebook-card">
+                                <div class="text">
+                                    <h1>Facebook</h1>
+                                    <p>Follow me!</p>
+                                </div>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="card instagram-card">
+                                <div class="text">
+                                    <h1>Instagram</h1>
+                                    <p>Our photos!</p>
+                                </div>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="fix-float"></section>
+                    <!-- End Social Section -->
+
+                    <!-- Start Ads Section -->
+                    <div class="ads">
+                        <h1 class="inline">Advertising</h1>
+                        <span class="inline-hr fihr"></span>
+                        <img src="images/banner-sidebar.jpg" alt="">
+                    </div>
+                    <section class="fix-float"></section>
+                    <!-- End Ads Section -->
+                </div>
+                <!-- End Right Div -->
+            </div>
+            <!-- End Main Page -->
+
+            <section class="fix-float"></section>
+
+        </div>
+        <!-- Start Footer -->
+        <div id="footer">
+            <!-- Start First Footer -->
+            <div class="ffooter">
+                <img src="images/Logo@2x.png">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- End First Footer -->
+
+            <!-- Start Second Footer -->
+            <div class="sfooter">
+                <div class="top-sfooter">
+                    <div class="follow">
+                        <h1>Follow me!</h1>
+                        <span class="inline-hr footer-hr"></span>
+                        <div class="align">
+                            <div class="footer-div-i">
+                                <a class="twitter" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                            </div>
+                            <div class="footer-div-i">
+                                <a class="instagram" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                            </div>
+                            <div class="footer-div-i">
+                                <a class="facebook" href="#"><i class="fab fa-facebook-f"></i> Facbook</a>
+                            </div>
+                            <div class="footer-div-i">
+                                <a class="pinterest" href="#"><i class="fab fa-pinterest"></i> Pinterest</a>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="fix"></section>
+                    <div class="subscribe">
+                        <h1>Subscribe to Rein</h1>
+                        <span class="inline-hr footer-hr"></span>
+                        <p>Get the latest posts delivered right to your email.</p>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Enter your email address">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+                <section class="fix-float"></section>
+                <div class="bottom-sfooter">
+                    <img src="images/hirsch-4253787_1920-700x438.jpg">
+                    <img src="images/quagmire_keep-800x500.jpg">
+                    <img src="images/08-painting-800x500.jpg">
+                    <img src="images/slider-2-op.jpg">
+                    <img src="images/slider-3-op.jpg">
+                    <img src="images/art-backlit-couple-556662-360x450.jpg">
+                    <button><i class="fab fa-instagram"></i> Follow me!</button>
+                </div>
+                <hr>
+                <p class="consolas">Coded With <i style="color: #FF6071; font-size: 12px;" class="fas fa-heart"></i>
+                    By
+                    <span>Ahmed Mahfouz</span></p>
+            </div>
+            <!-- End Second Footer -->
+            <section class="fix-float"></section>
+        </div>
+        <!-- End Footer -->
+
+    </div>
+    <!-- End Website -->
+
+    <!-- Start Search Page -->
+    <div id="search">
+        <div class="center">
+            <button onclick="remove()" class="close-button"><i class="fas fa-times"></i></button>
+            <h1>Press <span>ESC</span> to close</h1>
+            <input type="text" name="search" id="" placeholder="Type to start your search...">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <!-- End Search Page-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
